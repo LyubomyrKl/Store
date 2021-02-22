@@ -1,4 +1,81 @@
 body{
-    background-color: #40babd;
+    margin: 0;
+    border: 0;
+    padding: 0;
+    font-size: 20px;
+    font-family: 'Exo 2', sans-serif;
+    background: #40babd  no-repeat center;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
 
+
+/*Навігація по складу */
+/*Навігація по складу */
+/*Навігація по складу */
+
+.header{
+    text-align: center;
+}
+
+.menu{
+    font-size: 24px;
+    margin-bottom: 30px;
+}
+
+.menu_inner{
+    list-style: none;
+    text-align: center;
+    background-color: #298d90;
+    transition: .24s;
+    padding: 7px 30px;
+}
+
+.menu_inner:hover{
+    background: rgb(8, 124, 139);
+}
+
+.menu_inner a{
+    text-decoration: none;
+    color:white;
+}
+
+/*Пошук по запиту*/
+/*Пошук по запиту*/
+/*Пошук по запиту*/
+
+.search_but{
+    color:white;
+    background: #298d90;
+    border: none;
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 9px 75px;
+    transition: .24s linear;
+    
+}
+.search_but:hover {
+    background: rgb(8, 124, 139);
+}
+
+.search_form__inner{
+    padding-left: 40px;
+    width: 300px;
+    height: 42px;
+    font-size: 16px;
+    transition: .2s linear;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border: 10px solid rgb(255, 255, 255);
+    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABkAAAAZCAYAAADE6YVjAAAABmJLR0QA/wD/AP+gvaeTAAACYklEQVRIib3VTUhUURjG8f97rhc/UArDKNB0IaiT1SLBaqeubBUE7ly0CJFyMGeM2tTUpkKd0UkMImoRtJAIamObhFZJJlE5KCIlOEIUiBlU08y9bws1yGrujFrP7nAe+B0OvOfAf4ik3R0etnzx+BHU+BS2CyyJSiy2Z/czWlqcTSGl4XB+kWt1qGhAYF7hhcDSKlSnUCZC79flbdfnQie+ZY3U9vWVOWo9wvBW1Tk/HQjMrO9U9fdXGYcrQLmFc2wyEJjPGKkeHNwhidQYytBUsDPidcLqvkiXIO1G3PpYV9fi33rmFzGRuiXC/UwAgOnAmTDoA1VzM13vJ1IdiRwGDsjy0sVMgLUkbeuCwkFfT3+9JyKuaRVkKBYKfc8GmfX7E6jcUCOt3gjaoC6PswHWosYZAW30RBRKTUHO3EYQKzf3HVDmiWwmCccxgHoiAnH3S6piI4iVcCuAuCeiyiiWNm8EMYZmlKeeCGLuorRXRqO52QAVoTt5oO0GbnsiUwH/GMJLO+leygbJL/x0WcWMx4Kd457IysI9CRyvDvcHMgF8fQNBhKDlStoB/u2BrLwWLbVz3Ieg847mnJsJdkyv79RGIjUpV64KHAVygJjtJhtfd3d/yAiBlXsuKFo+rWgQWAAmgEWgGKgDdgEDFs49B2sE2JsO8vy0qhYWDokrPoFihM+u6KvCgoLnE21tSYD9PT07k8YeXYUmbTfZtB5Kj2SYymi0xE7qE9B9AtPi2A2xs6febyniBW0Zkg7akrdrLbN+/8ekLU0gbxTyXKNZDXZWqYxGS2p6B8v/GfCn/AAcWfTsjM7hYwAAAABJRU5ErkJggg==);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+input[type=text]:focus.search_form__inner {
+    width: 40%;
+    outline: none;
+    border: none;
+    background-position: 10px;
 }
