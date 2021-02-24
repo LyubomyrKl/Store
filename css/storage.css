@@ -9,16 +9,22 @@ body{
     background-size: cover;
 }
 
+<<<<<<< HEAD
 section{
     margin-bottom: 30px;
 }
 
 
+=======
+>>>>>>> e31f01938bd0eb905b0d2a2bbe8f22caca98f91f
 /*Навігація по складу */
 /*Навігація по складу */
 /*Навігація по складу */
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> e31f01938bd0eb905b0d2a2bbe8f22caca98f91f
 .header{
     text-align: center;
 }
@@ -49,6 +55,7 @@ section{
 /*Пошук по запиту*/
 /*Пошук по запиту*/
 
+<<<<<<< HEAD
 .search_but .search_but__exel{
     margin-bottom: 20px;
 }
@@ -58,16 +65,26 @@ section{
 
     box-sizing: border-box;
     margin-bottom: 20px;
+=======
+.search_but{
+>>>>>>> e31f01938bd0eb905b0d2a2bbe8f22caca98f91f
     color:white;
     background: #298d90;
     border: none;
     font-size: 16px;
     font-weight: 700;
     text-transform: uppercase;
+<<<<<<< HEAD
     padding: 10px 70px;
     transition: .24s linear; 
 }
 
+=======
+    padding: 9px 75px;
+    transition: .24s linear;
+    
+}
+>>>>>>> e31f01938bd0eb905b0d2a2bbe8f22caca98f91f
 .search_but:hover {
     background: rgb(8, 124, 139);
 }
@@ -87,6 +104,7 @@ section{
 }
 
 input[type=text]:focus.search_form__inner {
+<<<<<<< HEAD
     width: 450px;
     outline: none;
     border: none;   
@@ -132,4 +150,10 @@ td{
 
 .table_but:hover{
     color: rgb(8, 124, 139)
+=======
+    width: 40%;
+    outline: none;
+    border: none;
+    background-position: 10px;
+>>>>>>> e31f01938bd0eb905b0d2a2bbe8f22caca98f91f
 }

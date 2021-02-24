@@ -44,7 +44,10 @@ body{
 /*Пошук по запиту*/
 
 .search_but{
+<<<<<<< HEAD
     box-sizing: border-box;
+=======
+>>>>>>> e31f01938bd0eb905b0d2a2bbe8f22caca98f91f
     color:white;
     background: #298d90;
     border: none;
