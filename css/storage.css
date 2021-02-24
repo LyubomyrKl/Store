@@ -74,17 +74,10 @@ section{
     font-size: 16px;
     font-weight: 700;
     text-transform: uppercase;
-<<<<<<< HEAD
     padding: 10px 70px;
     transition: .24s linear; 
 }
 
-=======
-    padding: 9px 75px;
-    transition: .24s linear;
-    
-}
->>>>>>> e31f01938bd0eb905b0d2a2bbe8f22caca98f91f
 .search_but:hover {
     background: rgb(8, 124, 139);
 }
@@ -104,7 +97,6 @@ section{
 }
 
 input[type=text]:focus.search_form__inner {
-<<<<<<< HEAD
     width: 450px;
     outline: none;
     border: none;   
@@ -150,10 +142,4 @@ td{
 
 .table_but:hover{
     color: rgb(8, 124, 139)
-=======
-    width: 40%;
-    outline: none;
-    border: none;
-    background-position: 10px;
->>>>>>> e31f01938bd0eb905b0d2a2bbe8f22caca98f91f
 }
