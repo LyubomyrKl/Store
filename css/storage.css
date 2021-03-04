@@ -9,22 +9,14 @@ body{
     background-size: cover;
 }
 
-<<<<<<< HEAD
 section{
     margin-bottom: 30px;
 }
 
-
-=======
->>>>>>> e31f01938bd0eb905b0d2a2bbe8f22caca98f91f
 /*Навігація по складу */
 /*Навігація по складу */
 /*Навігація по складу */
 
-<<<<<<< HEAD
-
-=======
->>>>>>> e31f01938bd0eb905b0d2a2bbe8f22caca98f91f
 .header{
     text-align: center;
 }
@@ -55,7 +47,6 @@ section{
 /*Пошук по запиту*/
 /*Пошук по запиту*/
 
-<<<<<<< HEAD
 .search_but .search_but__exel{
     margin-bottom: 20px;
 }
@@ -65,9 +56,6 @@ section{
 
     box-sizing: border-box;
     margin-bottom: 20px;
-=======
-.search_but{
->>>>>>> e31f01938bd0eb905b0d2a2bbe8f22caca98f91f
     color:white;
     background: #298d90;
     border: none;
@@ -101,7 +89,6 @@ input[type=text]:focus.search_form__inner {
     outline: none;
     border: none;   
 }
-
 /*TABLE TABLE TABLE*/
 /*TABLE TABLE TABLE*/
 /*TABLE TABLE TABLE*/
@@ -126,7 +113,7 @@ td{
     color:black
 }
 
-.table_body__2:hover, .table_body__2:hover .table_but{ 
+.table_body__2:hover{ 
   background-color: #349ea3;
   transition: .2s linear;
   color:white; 
