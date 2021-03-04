@@ -1,0 +1,104 @@
+body{
+    margin: 0;
+    border: 0;
+    padding: 0;
+    font-size: 20px;
+    font-family: 'Exo 2', sans-serif;
+    background: #40babd  no-repeat center;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+
+a{
+    color: #fff;
+    transition: .2s linear;
+   }
+a:hover{
+    color:white;
+    text-decoration: none;
+}
+
+.log_frame{
+    width:450px;
+    height: 500px;
+    background-color: rgba(10, 55, 61, 0.6);
+    margin: 250px auto 0 auto;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+}   
+
+input[type="text"],input[type="password"]{
+    width: 300px;
+    height:50px;
+    font-size: 18px;
+    margin-bottom: 25px;
+    border-radius: 4px;
+    padding-left: 40px;
+    outline: none;
+    border: none;
+}    
+
+.dws-submit {
+    padding: 13px 40px;
+    margin: 5px 0 20px 0;
+    font-size: 15px;
+    color: #fff;
+    background-color: #298d90;
+    border: none;
+    cursor: pointer;
+
+    transition: .2s linear;
+   }
+   
+.dws-submit:hover{
+    background:rgb(8, 124, 139)
+}    
+
+/*ИКОНКИ ИКОНКИ ИКОНКИ */
+/*ИКОНКИ ИКОНКИ ИКОНКИ */
+/*ИКОНКИ ИКОНКИ ИКОНКИ */
+
+.dws-input::before{
+    font-family: "FontAwesome";
+    content: "\f007";
+    position: absolute;
+    font-size: 30px;
+    padding: 5px 0 0 7px;
+    color: rgb(8, 124, 139);
+} 
+
+.dws-input:nth-child(2)::before{
+   content: "\f023";
+} 
+
+.dws-input:hover::before{
+    color: rgba(10, 55, 61, 0.8);
+    transition: all 0.2s;
+} 
+
+.dws-input input:active{
+    box-shadow: 0 0 6px 3px rgba(58, 219, 253, 0.35);
+} 
+
+.dws-social{
+    text-align: center;
+    margin-top: 20px;
+}
+.dws-social i{
+    color: #fff;
+    font-size: 30px;
+    justify-content: space-around;
+    padding: 10px; 
+    
+    transition: .2s linear;
+}
+
+.dws-social i:hover{
+    background: white;
+    color: #298d90;
+    border-radius: 4px;
+}
+
+ 

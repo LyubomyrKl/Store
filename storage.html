@@ -15,17 +15,17 @@
     <header>
         <div class="container-fluid p-0">
             <div class="row m-0">
-                <div class="col-lg-4 p-0 menu">
+                <div class="col-lg-4 col-md-12 p-0 menu">
                     <ul class="menu_inner">
                         <li><a href="">Головна</a></li>
                     </ul>
                 </div>
-                <div class="col-lg-4 p-0 menu">
+                <div class="col-lg-4 col-md-12 p-0 menu">
                     <ul class="menu_inner">
                         <li><a href="">Склад</a></li>
                     </ul>
                 </div>
-                <div class="col-lg-4 p-0 menu">
+                <div class="col-lg-4  col-md-12 p-0 menu">
                     <ul class="menu_inner">
                         <li><a href="">Продаж</a></li>
                     </ul>
@@ -54,35 +54,36 @@
         <div class="container">
             <div class="row">
                 <div class="col-12 d-flex justify-content-center">
-                    <table>
-                        <tbody >
-                            <tr class="table_body__1">
-                                <td>№</td>
-                                <td>Тип</td>
-                                <td>Бренд</td>
-                                <td>Модель</td>
-                                <td>Кількість</td>
-                                <td>Остання ціна</td>
-                                <td><i class="fas fa-hryvnia"></i></td>
-                            </tr>
-                        </tbody>
-                        <tbody>
-                            <tr class="table_body__2">
-                                <td>1</td>
-                                <td>{{type}}</td>
-                                <td>{{brand}}</td>
-                                <td>{{model}}</td>
-                                <td>{{amount}}</td>
-                                <td>{{price}}</td>
-                                <td><a href=""><i class="fas fa-clipboard-list table_but"></i></a></td>
-                            </tr>
-                        </tbody>
-                    </table>
+                    <div class="table-box">
+                        <table>
+                            <tbody >
+                                <tr class="table_body__1">
+                                    <td>№</td>
+                                    <td>Тип</td>
+                                    <td>Бренд</td>
+                                    <td>Модель</td>
+                                    <td>Кількість</td>
+                                    <td>Остання ціна</td>
+                                    <td><i class="fas fa-hryvnia"></i></td>
+                                </tr>
+                            </tbody>
+                            <tbody>
+                                <tr class="table_body__2">
+                                    <td>1</td>
+                                    <td>{{type}}</td>
+                                    <td>{{brand}}</td>
+                                    <td>{{model}}</td>
+                                    <td>{{amount}}</td>
+                                    <td>{{price}}</td>
+                                    <td><a href=""><i class="fas fa-clipboard-list table_but"></i></a></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
-
 <script src="libs/node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
 <script src="https://kit.fontawesome.com/fef7dd7ed5.js" crossorigin="anonymous"></script>
 <script src="js/script.js"></script>
