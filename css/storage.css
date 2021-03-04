@@ -1,6 +1,3 @@
-html{
-    overflow-x: hidden;
-}
 body{
     margin: 0;
     border: 0;
@@ -16,18 +13,15 @@ section{
     margin-bottom: 30px;
 }
 
-
 /*Навігація по складу */
 /*Навігація по складу */
 /*Навігація по складу */
 
 .header{
-    width: 100%;
     text-align: center;
 }
 
 .menu{
-    width: 100vw;
     font-size: 24px;
     margin-bottom: 30px;
 }
@@ -95,15 +89,10 @@ input[type=text]:focus.search_form__inner {
     outline: none;
     border: none;   
 }
+/*TABLE TABLE TABLE*/
+/*TABLE TABLE TABLE*/
+/*TABLE TABLE TABLE*/
 
-/*TABLE TABLE TABLE*/
-/*TABLE TABLE TABLE*/
-/*TABLE TABLE TABLE*/
-.table-box{
-    width: 100%;
-    max-width: 100%;
-    overflow-x:auto ;
-}
 table{
     text-align: center;
 }
@@ -113,7 +102,7 @@ td{
     border: 2px solid rgb(8, 124, 139);
 }
 
-.table_body__1{
+ .table_body__1{
     background-color: #298d90; 
     color:white
 }
@@ -124,7 +113,7 @@ td{
     color:black
 }
 
-.table_body__2:hover, .table_body__2:hover .table_but{ 
+.table_body__2:hover{ 
   background-color: #349ea3;
   transition: .2s linear;
   color:white; 
@@ -140,13 +129,4 @@ td{
 
 .table_but:hover{
     color: rgb(8, 124, 139)
-}
-
-
-@media (max-width: 767.98px) {
-    table{
-        width: 100%;
-        max-width:100%
-
-    }
 }
