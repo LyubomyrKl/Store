@@ -8,6 +8,9 @@ body{
     -webkit-background-size: cover;
     background-size: cover;
 }
+section{
+    margin-bottom: 30px;
+}
 
 /*Навігація по складу */
 /*Навігація по складу */
@@ -43,24 +46,30 @@ body{
 /*Пошук по запиту*/
 /*Пошук по запиту*/
 
+.search .search_but__exel{
+    border:2px solid rgb(8, 124, 139);
+}
+
+
 .search_but{
+
     box-sizing: border-box;
+    margin-bottom: 20px;
     color:white;
     background: #298d90;
     border: none;
     font-size: 16px;
     font-weight: 700;
     text-transform: uppercase;
-    padding: 9px 75px;
-    transition: .24s linear;
-    
+    padding: 10px 70px;
+    transition: .24s linear; 
 }
+
 .search_but:hover {
     background: rgb(8, 124, 139);
 }
 
 .search_form__inner{
-    
     padding-left: 40px;
     width: 300px;
     height: 42px;
@@ -75,8 +84,49 @@ body{
 }
 
 input[type=text]:focus.search_form__inner {
-    width: 40%;
+    width: 450px;
     outline: none;
-    border: none;
-    background-position: 10px;
+    border: none;   
+}
+
+/*TABLE TABLE TABLE*/
+/*TABLE TABLE TABLE*/
+/*TABLE TABLE TABLE*/
+
+table{
+    text-align: center;
+}
+
+td{
+    padding: 10px 25px;
+    border: 2px solid rgb(8, 124, 139);
+}
+
+ .table_body__1{
+    background-color: #298d90; 
+    color:white
+}
+
+.table_body__2{
+    border: 2px solid #298d90;
+    background-color: white;
+    color:black
+}
+
+.table_body__2:hover, .table_body__2:hover .table_but{ 
+  background-color: #349ea3;
+  transition: .2s linear;
+  color:white; 
+  
+}
+
+.table_but{
+    display: inline;
+    text-decoration: none;
+    color:black;
+    transition: .2s linear;
+}
+
+.table_but:hover{
+    color: rgb(8, 124, 139)
 }
