@@ -68,8 +68,8 @@ section{
 }
 
 .search_but:active,
- .search_but:focus,
- .search_but{
+.search_but:focus,
+.search_but{
     outline: none;
     border: none;   
 }
