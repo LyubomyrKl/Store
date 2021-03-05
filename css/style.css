@@ -13,6 +13,7 @@ section{
     margin-bottom: 30px;
 }
 
+
 /*Навігація по складу */
 /*Навігація по складу */
 /*Навігація по складу */
@@ -53,7 +54,6 @@ section{
 
 
 .search_but{
-
     box-sizing: border-box;
     margin-bottom: 20px;
     color:white;
@@ -62,12 +62,20 @@ section{
     font-size: 16px;
     font-weight: 700;
     text-transform: uppercase;
+    text-decoration: none;
     padding: 10px 70px;
     transition: .24s linear; 
 }
 
+.search_but:active,
+ .search_but:focus,
+ .search_but{
+    outline: none;
+    border: none;   
+}
 .search_but:hover {
     background: rgb(8, 124, 139);
+    color:white;
 }
 
 .search_form__inner{
@@ -89,6 +97,7 @@ input[type=text]:focus.search_form__inner {
     outline: none;
     border: none;   
 }
+
 /*TABLE TABLE TABLE*/
 /*TABLE TABLE TABLE*/
 /*TABLE TABLE TABLE*/

@@ -12,7 +12,6 @@
 </head>
     
 <body>
-
     <header>
         <div class="container-fluid p-0">
             <div class="row m-0">
@@ -34,13 +33,11 @@
             </div>
         </div>
     </header> 
-
     <section class="search">
         <div class="container">
             <div class="row">
                 <div class="col-lg d-flex justify-content-center m-5">
-                    <input class="search_but search_but__exel" type="submit" value="Добавити EXEL`">
-                    <input class="search_but search_but__exel" type="submit" value="Добавити Вручну">  
+                    <a href='#popup' id="addGoods" onclick="toggle()" class="search_but search_but__exel">Добавити вручну</a>  
                 </div>
             </div>
             <div class="row">
@@ -57,7 +54,7 @@
             <div class="row">
                 <div class="col-12 d-flex justify-content-center">
                     <table>
-                        <thead >
+                        <thead>
                             <tr class="table_head">
                                 <th>№</th>
                                 <th>Тип</th>
@@ -85,6 +82,48 @@
                 </div>
             </div>
         </div>
+    </section>
+
+    <section id='popup' class="popup">
+        <div class="popup_body">
+            <div class="popup_content">
+                <a href="#" class="popup-close"><i class="fas fa-times"></i></a>
+                <form class="popup-form">
+                    <div class="popup-box">
+                        <label>Type:</label>
+                        <input placeholder="Type" name="type" value={this.state.type} onChange={this.changeTypeHandler}/>
+                    </div>
+                    <div class="popup-box">
+                        <label>Brand:</label>
+                        <input placeholder="Brand" name="brand" value={this.state.brand} onChange={this.changeBrandHandler}/>
+                    </div>
+                    <div class="popup-box">
+                        <label>Model:</label>
+                        <input placeholder="Model" name="model" value={this.state.model} onChange={this.changeModelHandler}/>
+                    </div>
+                    <div class="popup-box"> 
+                        <label>Price:</label>
+                        <input placeholder="Price" name="price" value={this.state.price} onChange={this.changePriceHandler}/>
+                    </div>
+                    <div class="popup-box">
+                        <label>Amount:</label>
+                        <input placeholder="Amount" name="amount" value={this.state.amount} onChange={this.changeAmountHandler}/>
+                    </div>
+                    <div class="popup-box">
+                        <label>Supplier:</label>
+                        <input placeholder="Supplier" name="supplier" value={this.state.supplier} onChange={this.changeSupplierHandler}/>
+                    </div>
+                    <div class="popup-box">
+                        <label>Date:</label>
+                        <input placeholder="Date" name="date" value={this.state.date} onChange={this.changeDateHandler}/>
+                    </div>
+                    <div class="popup-box">
+                        <button class="search_but__popup" onClick={this.saveOrUpdateIncome}>Add</button>
+                        <button class="search_but__popup" onClick={this.cancel.bind(this)}>Cancel</button>
+                    </div>    
+                </form>
+            </div>
+        </div>  
     </section>
 
     <script src="libs/node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
