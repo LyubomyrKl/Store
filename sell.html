@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="libs/node_modules/bootstrap/dist/css/bootstrap.css">
     <link rel="stylesheet" href="css/sell.css">
+    <link rel="stylesheet" href="css/style.css">
     <link href="https://fonts.googleapis.com/css?family=Exo+2:300,400,700&display=swap" rel="stylesheet">
     <title>sell</title>
 </head>
@@ -27,7 +28,7 @@
                 </div>
                 <div class="col-lg-4 p-0 menu">
                     <ul class="menu_inner">
-                        <li><a href="">Продаж</a></li>
+                        <li><a href="">Прихід</a></li>
                     </ul>
                 </div>
             </div>
@@ -56,21 +57,21 @@
             <div class="row">
                 <div class="col-12 d-flex justify-content-center">
                     <table>
-                        <tbody >
-                            <tr class="table_body__1">
-                                <td>№</td>
-                                <td>Тип</td>
-                                <td>Бренд</td>
-                                <td>Модель</td>
-                                <td>Кількість</td>
-                                <td>Ціна</td>
-                                <td>Як</td>
-                                <td>Дата</td>
-                                <td>Борг</td>
+                        <thead>
+                            <tr class="table_head">
+                                <th>№</th>
+                                <th>Тип</th>
+                                <th>Бренд</th>
+                                <th>Модель</th>
+                                <th>Кількість</th>
+                                <th>Ціна</th>
+                                <th>Як</th>
+                                <th>Дата</th>
+                                <th>Борг</th>
                             </tr>
-                        </tbody>
+                        </thead>
                         <tbody>
-                            <tr class="table_body__2">
+                            <tr class="table_body">
                                 <td>1</td>
                                 <td>{{type}}</td>
                                 <td>{{brand}}</td>

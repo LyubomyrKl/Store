@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="libs/node_modules/bootstrap/dist/css/bootstrap.css">
     <link rel="stylesheet" href="css/storage.css">
+    <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css" integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Exo+2:300,400,700&display=swap" rel="stylesheet">
     <title>storage</title>
@@ -56,19 +57,19 @@
                 <div class="col-12 d-flex justify-content-center">
                     <div class="table-box">
                         <table>
-                            <tbody>
-                                <tr class="table_body__1">
-                                    <td>№</td>
-                                    <td>Тип</td>
-                                    <td>Бренд</td>
-                                    <td>Модель</td>
-                                    <td>Кількість</td>
-                                    <td>Остання ціна</td>
-                                    <td><i class="fas fa-hryvnia"></i></td>
+                            <thead>
+                                <tr class="table_head">
+                                    <th>№</th>
+                                    <th>Тип</th>
+                                    <th>Бренд</th>
+                                    <th>Модель</th>
+                                    <th>Кількість</th>
+                                    <th>Остання ціна</th>
+                                    <th><i class="fas fa-hryvnia"></i></th>
                                 </tr>
-                            </tbody>
+                            </thead>
                             <tbody>
-                                <tr class="table_body__2">
+                                <tr class="table_body">
                                     <td>1</td>
                                     <td>{{type}}</td>
                                     <td>{{brand}}</td>
