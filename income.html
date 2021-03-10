@@ -12,7 +12,7 @@
 </head>
     
 <body>
-    <header>
+    <header class="header lock-padding">
         <div class="container-fluid p-0">
             <div class="row m-0">
                 <div class="col-lg-4 p-0 menu">
@@ -37,7 +37,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg d-flex justify-content-center m-5">
-                    <a href='#popup' id="addGoods" class="search_but">Добавити вручну</a>  
+                    <a href='#popup' id="addGoods" class="search_but popup_link">Добавити вручну</a>  
                 </div>
             </div>
             <div class="row">
@@ -87,7 +87,7 @@
     <section id='popup' class="popup">
         <div class="popup_body">
             <div class="popup_content">
-                <a href="#" class="popup-close"><i class="fas fa-times"></i></a>
+                <a href="" class="popup_close" onclick="test()"><i class="fas fa-times"></i></a>
                 <form class="popup-form">
                     <div class="popup-box">
                         <label>Type:</label>
@@ -119,7 +119,7 @@
                     </div>
                     <div class="popup-box">
                         <button class="search_but__popup" onClick={this.saveOrUpdateIncome}>Add</button>
-                        <button class="search_but__popup" onClick={this.cancel.bind(this)}>Cancel</button>
+                        <button class="search_but__popup close-popup" onClick={this.cancel.bind(this)}>Cancel</button>
                     </div>    
                 </form>
             </div>

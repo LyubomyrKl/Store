@@ -5,7 +5,7 @@ label{
     border-radius: 5px;
 }
 
-#popup{
+.popup{
     position: fixed;
     width: 100%;
     height: 100%;
@@ -14,12 +14,21 @@ label{
     left: 0;
     opacity: 0;
     visibility: hidden;
+    overflow-y: auto;
+    overflow-x: hidden;
+    transition: 0.4s all ease 0s;
 }
 
-#popup:target{
+.popup.open{
     opacity: 1;
     visibility: visible ;
 }
+
+.popup.open  .popup_content{
+    transform: perspective(600px) translate(0px, 0px) rotateX(0deg);
+    opacity: 1;
+}
+
 .search_but__popup{
     box-sizing: border-box;
     margin-bottom: 20px;
@@ -39,6 +48,7 @@ label{
     outline: none;
     border: none;   
 }
+
 .search_but__popup:hover {
     background: rgb(8, 124, 139);
 }
@@ -55,17 +65,21 @@ label{
 .popup_content{
     background-color: #40babd  ;
     color: white;
-    max-width: 400px;
+    max-width: 450px;
     border-radius: 5px;
     padding: 30px;
     position: relative;
+    transform: perspective(3000px) translate(0px, -100%) rotateX(45deg);
+    transition: 0.4s all ease 0s;
+
+    opacity: 0;
 }
 
-.popup-close{
+.popup_close{
     position: absolute;
     right: 10px;
-    top: 10px;
-    font-size: 20px;
+    top: 5px;
+    font-size: 25px;
     color:white;
     text-decoration: none; 
     
